@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <form action="">
+            <h1>Formulario de contacto</h1>
+            <div class="form-container">
+                <label for="nombre">Nombre*</label>
+                <input class="nombre" id="nombre" type="text" placeholder="Escribe tu nombre" required>
+                <label for="email">Email*</label>
+                <input class="email" id="email" type="email" placeholder="Escribe tu Email" required>
+                <label for="telefono">Teléfono</label>
+                <input class="telefono" id="telefono" type="number" placeholder="Escribe tu teléfono">
+                <label for="web">Sitio Web</label>
+                <input class="web" id="web" type="url" placeholder="Escribe la URL de tu web">
+                <label for="asunto">Asunto*</label>
+                <input class="asunto" id="asunto" type="text" required placeholder="Escribe un asunto">
+                <label for="mensaje">Mensaje*</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Deja tu comentario aqui..."></textarea>
+                <button type="submit">Enviar</button>
+                <p>*Los campos son obligatorios</p>
+            </div>
+    </div>
+    </form>
+    </div>
 </body>
+
 </html>
