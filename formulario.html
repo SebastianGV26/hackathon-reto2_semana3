@@ -6,6 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="">
+            <h1>Formulario de contacto</h1>
+            <label for="nombre">Nombre*</label>
+            <input class="nombre" id="nombre" type="text" required>
+            <label for="email">Email*</label>
+            <input class="email" id="email" type="email" required>
+            <label for="telefono">Teléfono</label>
+            <input class="telefono" id="telefono" type="number">
+            <label for="web">Sitio Web</label>
+            <input class="web" id="web"  type="url">
+            <label for="asunto">Asunto*</label>
+            <input class="asunto" id="asunto" type="text" required>
+            <label for="mensaje">Mensaje*</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
+            <p>*Los campos son obligatorios</p>
+        </form>
+    </div>
 </body>
 </html>
